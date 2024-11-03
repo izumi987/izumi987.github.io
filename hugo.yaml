@@ -1,6 +1,6 @@
 baseURL: "https://izumi987.github.io/" # 主站的 URL
-title: SonnyCalcr's Blog # 站点标题
-copyright: "[©2024 SonnyCalcr's Blog](https://izumi987.github.io/)" # 网站的版权声明，通常显示在页脚
+title: Izumi987's Blog # 站点标题
+copyright: "[©2024 Izumi987's Blog](https://izumi987.github.io/)" # 网站的版权声明，通常显示在页脚
 theme: PaperMod # 主题
 languageCode: zh-cn # 语言
 
