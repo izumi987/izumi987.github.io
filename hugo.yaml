@@ -43,3 +43,37 @@ languages:
         - name: 关于
           pageRef: about/
           weight: 21
+
+params:
+  # 搜索
+  fuseOpts:
+      isCaseSensitive: false # 是否大小写敏感
+      shouldSort: true # 是否排序
+      location: 0
+      distance: 1000
+      threshold: 0.4
+      minMatchCharLength: 0
+      # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+      keys: ["title", "permalink", "summary", "content"]
+      includeMatches: true
+# https://github.com/adityatelange/hugo-PaperMod/wiki/Features#search-page
+outputs:
+  home:
+    - HTML # 生成的静态页面
+    - RSS # 这个其实无所谓
+    - JSON # necessary for search, 这里的配置修改好之后，一定要重新生成一下
+  # 评论的设置
+giscus:
+  repo: "izumi987/izumi987.github.io"
+  repoId: "R_kgDONJ1RRg"
+  category: "Announcements"
+  categoryId: "DIC_kwDONJ1RRs4Cj8TA"
+  mapping: "pathname"
+  strict: "0"
+  reactionsEnabled: "1"
+  emitMetadata: "0"
+  inputPosition: "bottom"
+  lightTheme: "light"
+  darkTheme: "dark"
+  lang: "zh-CN"
+  crossorigin: "anonymous"
