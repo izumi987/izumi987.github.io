@@ -94,6 +94,14 @@ params:
       includeMatches: true
 # https://github.com/adityatelange/hugo-PaperMod/wiki/Features#search-page
 
+
+  assets:
+      favicon: "favicon.png"
+      favicon16x16: "favicon.png"
+      favicon32x32: "favicon.png"
+      apple_touch_icon: "favicon.png"
+      safari_pinned_tab: "favicon.png"
+      disableHLJS: true
   # 评论的设置
   giscus:
     repo: "izumi987/izumi987.github.io"
