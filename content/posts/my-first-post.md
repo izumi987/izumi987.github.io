@@ -20,3 +20,13 @@ $$
 \boldsymbol{x}_{i+1}+\boldsymbol{x}_{i+2}=\boldsymbol{x}_{i+3}
 $$
 </div>
+
+```css
+.post-content pre,
+code {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1rem;
+    line-height: 1.2;
+}
+```
+
