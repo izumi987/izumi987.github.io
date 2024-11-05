@@ -52,7 +52,7 @@ paginate: 8 # 每页展示的文章数量
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-  author: Sonny Calcr
+  author: izumi987
   defaultTheme: dark # 默认是暗色背景
   ShowShareButtons: false # 关闭分享的按钮
   ShowReadingTime: true # 展示预估的阅读时长
@@ -67,7 +67,6 @@ params:
   comments: true # 评论
   images: [""] # 缺省的图片，比如，博客的封面
   DateFormat: "2006-01-02" # 这个时间是作者自己写的，只能这样写
-
 # 首页的文章上方的一些信息
   homeInfoParams:
     # 首页的 profile 内容
@@ -78,22 +77,23 @@ params:
       <div>
       ● 第一次建网站，有不足的地方请谅解
       </div>
-    socialIcons:
-    - name: github
-      title: Follow my Github
-      url: "https://github.com/izumi987"
-    - name: X
-      title: Follow my Twitter
-      url: "https://x.com/komorebi_233333"
-    - name: Bilibili
-      title: 关注我的 B 站帐号
-      url: "https://space.bilibili.com/26586741"
-    - name: Youtube
-      title: Follow my Youtube Channel
-      url: "https://www.youtube.com/@mikumiku-w9l"
-    - name: Telegram
-      title: Contact Me
-      url: "https://t.me/izumi987987"
+
+  socialIcons:
+  - name: github
+    title: Follow my Github
+    url: "https://github.com/izumi987"
+  - name: X
+    title: Follow my Twitter
+    url: "https://x.com/komorebi_233333"
+  - name: Bilibili
+    title: 关注我的 B 站帐号
+    url: "https://space.bilibili.com/26586741"
+  - name: Youtube
+    title: Follow my Youtube Channel
+    url: "https://www.youtube.com/@mikumiku-w9l"
+  - name: Telegram
+    title: Contact Me
+    url: "https://t.me/izumi987987"
   # 搜索
   fuseOpts:
       isCaseSensitive: false # 是否大小写敏感

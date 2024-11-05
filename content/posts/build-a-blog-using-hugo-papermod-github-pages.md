@@ -66,7 +66,7 @@ hugo version
 按：这里可以参考 hugo 官网的[指导](https://gohugo.io/getting-started/quick-start/)。
 
 ```powershell
-hugo new site SonnyCalcr
+hugo new site izumi987
 ```
 
 ![](https://i.postimg.cc/cx5SL93v/image.png)
@@ -74,7 +74,7 @@ hugo new site SonnyCalcr
 然后，
 
 ```powershell
-cd SonnyCalcr
+cd izumi987
 tree . /f
 ```
 
@@ -110,7 +110,7 @@ git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/Pape
 ❯ tree .\themes\PaperMod\ /f
 Folder PATH listing for volume Windows
 Volume serial number is B867-6B94
-C:\HDISK\HUGO\SONNYCALCR\THEMES\PAPERMOD
+C:\HDISK\HUGO\izumi987\THEMES\PAPERMOD
 │   go.mod
 │   LICENSE
 │   README.md
@@ -330,9 +330,9 @@ Rename-Item .\hugo.toml hugo.yaml
 然后，配置一下基本信息，基本上每一个选项我都打上了注释，
 
 ```yaml
-baseURL: "https://sonnycalcr.github.io/" # 主站的 URL
-title: SonnyCalcr's Blog # 站点标题
-copyright: "[©2024 SonnyCalcr's Blog](https://sonnycalcr.github.io/)" # 网站的版权声明，通常显示在页脚
+baseURL: "https://izumi987.github.io/" # 主站的 URL
+title: izumi987's Blog # 站点标题
+copyright: "[©2024 izumi987's Blog](https://izumi987.github.io/)" # 网站的版权声明，通常显示在页脚
 theme: PaperMod # 主题
 languageCode: zh-cn # 语言
 
@@ -563,7 +563,7 @@ summary: about
 params:
   # 评论的设置
   giscus:
-    repo: "sonnycalcr/sonnycalcr.github.io"
+    repo: "izumi987/izumi987.github.io"
     repoId: "xxxxxx"
     category: "Announcements"
     categoryId: "xxxxx"
