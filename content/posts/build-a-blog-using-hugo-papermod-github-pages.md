@@ -18,7 +18,7 @@ tags = ["博客搭建", "Bilibili"]
 - [hugo](https://gohugo.io)
 - [papermod](https://github.com/adityatelange/hugo-PaperMod)
 - [github](https://github.com)
-- [postimage](https://www.flaticon.com)
+- [postimage](https://postimages.org/)
 - [giscus](https://giscus.app/zh-CN)
 - [neovim](https://neovim.io/)/[vscode](https://code.visualstudio.com/)
 - [git](https://git-scm.com/)
@@ -985,5 +985,3 @@ PaperMod 的搜索十分简陋。但是，问题倒也不大。从好的方面�
 5. <https://cursor.in/>
 6. <https://github.com/francoischalifour/medium-zoom>
 7. <https://shaohanyun.top/posts/env/hugo_mathjax/>
-
-
