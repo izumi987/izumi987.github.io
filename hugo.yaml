@@ -65,7 +65,7 @@ params:
   ShowPageNums: true # 展示页面的页数
   ShowToc: true # 展示文章详情页的目录
   comments: true # 评论
-  images: ["https://i.postimg.cc/7hwBy7VS/calcr.png"] # 缺省的图片，比如，博客的封面
+  images: [""] # 缺省的图片，比如，博客的封面
   DateFormat: "2006-01-02" # 这个时间是作者自己写的，只能这样写
 
 # 首页的文章上方的一些信息
@@ -76,26 +76,24 @@ params:
     Content: >
       Welcome to my Blog! 挂上一个梯子可能会让访问更加顺畅。
       <div>
-      ● 
-      <br>
-      ● 
-      <br>
+      ● 第一次建网站，有不足的地方请谅解
+      </div>
     socialIcons:
     - name: github
       title: Follow my Github
       url: "https://github.com/izumi987"
     - name: X
       title: Follow my Twitter
-      url: "https://x.com/izumi987"
+      url: "https://x.com/komorebi_233333"
     - name: Bilibili
       title: 关注我的 B 站帐号
-      url: "https://space.bilibili.com/"
+      url: "https://space.bilibili.com/26586741"
     - name: Youtube
       title: Follow my Youtube Channel
-      url: "https://youtube.com/"
+      url: "https://www.youtube.com/@mikumiku-w9l"
     - name: Telegram
       title: Contact Me
-      url: "https://t.me/"
+      url: "https://t.me/izumi987987"
   # 搜索
   fuseOpts:
       isCaseSensitive: false # 是否大小写敏感
